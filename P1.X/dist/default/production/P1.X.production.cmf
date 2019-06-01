@@ -1,0 +1,1450 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$/tmp/cgtfcXN1d.obj
+end_init CODE 0 0 0 4 1
+idloc IDLOC 0 200000 200000 8 1
+config CONFIG 0 300000 300000 E 1
+$dist/default/production/P1.X.production.obj
+mediumconst MEDIUMCONST 0 7E72 7E72 18E 1
+text22 CODE 0 6548 6548 FC 1
+text21 CODE 0 646C 646C DC 1
+text20 CODE 0 5DF4 5DF4 56 1
+text19 CODE 0 69B8 69B8 1D8 1
+text18 CODE 0 6760 6760 128 1
+text17 CODE 0 6644 6644 11C 1
+text16 CODE 0 6888 6888 130 1
+text15 CODE 0 5E4A 5E4A 62 1
+text14 CODE 0 5F10 5F10 68 1
+text13 CODE 0 618A 618A 82 1
+text12 CODE 0 6B90 6B90 234 1
+text11 CODE 0 63C8 63C8 A4 1
+text10 CODE 0 620C 620C 92 1
+text9 CODE 0 5F78 5F78 6A 1
+text8 CODE 0 5FE2 5FE2 6A 1
+text7 CODE 0 604C 604C 6A 1
+text6 CODE 0 629E 629E 92 1
+text5 CODE 0 60B6 60B6 6A 1
+text4 CODE 0 6120 6120 6A 1
+text3 CODE 0 5D18 5D18 26 1
+text2 CODE 0 5DA6 5DA6 4E 1
+text1 CODE 0 5D3E 5D3E 2C 1
+text0 CODE 0 6DC4 6DC4 10AE 1
+cstackCOMRAM COMRAM 1 1 1 3D 1
+cstackBANK0 BANK0 1 9C 9C 32 1
+dataBANK1 BANK1 1 100 100 98 1
+dataBANK0 BANK0 1 60 60 3C 1
+bssBANK0 BANK0 1 CE CE 10 1
+bssCOMRAM COMRAM 1 3E 3E 6 1
+bitbssCOMRAM COMRAM 1 220 44 2 1
+cinit CODE 0 5EAC 5EAC 64 1
+idataBANK1 CODE 0 6330 6330 98 1
+idataBANK0 CODE 0 5D6A 5D6A 3C 1
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+BANK0 0000DE-0000FF 1
+BANK1 000198-0001FF 1
+BANK2 000200-0002FF 1
+BANK3 000300-0003FF 1
+BANK4 000400-0004FF 1
+BANK5 000500-0005FF 1
+BANK6 000600-0006FF 1
+BANK7 000700-0007FF 1
+BIGRAM 000045-00005F 1
+BIGRAM 0000DE-0000FF 1
+BIGRAM 000198-0007FF 1
+CODE 000004-005D17 1
+COMRAM 000045-00005F 1
+CONST 000004-005D17 1
+EEDATA F00000-F000FF 1
+MEDIUMCONST 000800-005D17 1
+RAM 0000DE-0000FF 1
+RAM 000198-0007FF 1
+SFR 000F53-000FFF 1
+SMALLCONST 000800-005D17 1
+STACK 000198-0007FF 1
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <file name>:<line number> <address> <psect name> <class name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/production/P1.X.production.obj
+"/opt/microchip/xc8/v1.32/sources/common/Umul16.c":15 5D18 text3 CODE
+"/opt/microchip/xc8/v1.32/sources/common/Umul16.c":37 5D18 text3 CODE
+"/opt/microchip/xc8/v1.32/sources/common/Umul16.c":38 5D24 text3 CODE
+"/opt/microchip/xc8/v1.32/sources/common/Umul16.c":39 5D2C text3 CODE
+"/opt/microchip/xc8/v1.32/sources/common/Umul16.c":52 5D34 text3 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/DELAY.h":4 5D3E text1 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/DELAY.h":6 5D3E text1 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/DELAY.h":7 5D56 text1 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/DELAY.h":6 5D64 text1 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":161 5DA6 text2 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":163 5DA6 text2 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":164 5DA8 text2 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":165 5DAE text2 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":166 5DB4 text2 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":167 5DBA text2 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":163 5DC2 text2 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":170 5DEC text2 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":171 5DF2 text2 CODE
+"/opt/microchip/xc8/v1.32/sources/common/Umul32.c":15 5DF4 text20 CODE
+"/opt/microchip/xc8/v1.32/sources/common/Umul32.c":119 5DF4 text20 CODE
+"/opt/microchip/xc8/v1.32/sources/common/Umul32.c":121 5E04 text20 CODE
+"/opt/microchip/xc8/v1.32/sources/common/Umul32.c":122 5E08 text20 CODE
+"/opt/microchip/xc8/v1.32/sources/common/Umul32.c":123 5E18 text20 CODE
+"/opt/microchip/xc8/v1.32/sources/common/Umul32.c":124 5E22 text20 CODE
+"/opt/microchip/xc8/v1.32/sources/common/Umul32.c":125 5E2C text20 CODE
+"/opt/microchip/xc8/v1.32/sources/common/Umul32.c":128 5E38 text20 CODE
+"/opt/microchip/xc8/v1.32/sources/common/Umul32.c":129 5E48 text20 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":92 5E4A text15 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":95 5E4C text15 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":97 5E4E text15 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":98 5E54 text15 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":99 5E5A text15 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":100 5E60 text15 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":95 5E68 text15 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":103 5E82 text15 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":104 5E88 text15 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":106 5E8A text15 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":107 5E98 text15 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":104 5E9C text15 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":110 5EA8 text15 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":104 5EAA text15 CODE
+"/tmp/cgtJldLp4":2931 5EAC cinit CODE
+"/tmp/cgtJldLp4":2933 5EAC cinit CODE
+"/tmp/cgtJldLp4":2936 5EAC cinit CODE
+"/tmp/cgtJldLp4":3025 5EAC cinit CODE
+"/tmp/cgtJldLp4":3026 5EB0 cinit CODE
+"/tmp/cgtJldLp4":3027 5EB2 cinit CODE
+"/tmp/cgtJldLp4":3028 5EB2 cinit CODE
+"/tmp/cgtJldLp4":3029 5EB4 cinit CODE
+"/tmp/cgtJldLp4":3030 5EB6 cinit CODE
+"/tmp/cgtJldLp4":3033 5EB8 cinit CODE
+"/tmp/cgtJldLp4":3036 5EBA cinit CODE
+"/tmp/cgtJldLp4":3037 5EBC cinit CODE
+"/tmp/cgtJldLp4":3038 5EBE cinit CODE
+"/tmp/cgtJldLp4":3039 5EC0 cinit CODE
+"/tmp/cgtJldLp4":3040 5EC2 cinit CODE
+"/tmp/cgtJldLp4":3041 5EC4 cinit CODE
+"/tmp/cgtJldLp4":3046 5EC6 cinit CODE
+"/tmp/cgtJldLp4":3047 5EC8 cinit CODE
+"/tmp/cgtJldLp4":3048 5ECA cinit CODE
+"/tmp/cgtJldLp4":3049 5ECC cinit CODE
+"/tmp/cgtJldLp4":3050 5ECE cinit CODE
+"/tmp/cgtJldLp4":3051 5ED0 cinit CODE
+"/tmp/cgtJldLp4":3052 5ED2 cinit CODE
+"/tmp/cgtJldLp4":3053 5ED6 cinit CODE
+"/tmp/cgtJldLp4":3054 5EDA cinit CODE
+"/tmp/cgtJldLp4":3055 5EDA cinit CODE
+"/tmp/cgtJldLp4":3056 5EDC cinit CODE
+"/tmp/cgtJldLp4":3057 5EE0 cinit CODE
+"/tmp/cgtJldLp4":3058 5EE2 cinit CODE
+"/tmp/cgtJldLp4":3059 5EE4 cinit CODE
+"/tmp/cgtJldLp4":3063 5EE6 cinit CODE
+"/tmp/cgtJldLp4":3064 5EE8 cinit CODE
+"/tmp/cgtJldLp4":3065 5EEA cinit CODE
+"/tmp/cgtJldLp4":3066 5EEC cinit CODE
+"/tmp/cgtJldLp4":3067 5EEE cinit CODE
+"/tmp/cgtJldLp4":3068 5EF0 cinit CODE
+"/tmp/cgtJldLp4":3069 5EF2 cinit CODE
+"/tmp/cgtJldLp4":3070 5EF6 cinit CODE
+"/tmp/cgtJldLp4":3071 5EFA cinit CODE
+"/tmp/cgtJldLp4":3072 5EFA cinit CODE
+"/tmp/cgtJldLp4":3073 5EFC cinit CODE
+"/tmp/cgtJldLp4":3074 5F00 cinit CODE
+"/tmp/cgtJldLp4":3075 5F02 cinit CODE
+"/tmp/cgtJldLp4":3076 5F04 cinit CODE
+"/tmp/cgtJldLp4":3082 5F06 cinit CODE
+"/tmp/cgtJldLp4":3084 5F06 cinit CODE
+"/tmp/cgtJldLp4":3085 5F08 cinit CODE
+"/tmp/cgtJldLp4":3086 5F0A cinit CODE
+"/tmp/cgtJldLp4":3087 5F0C cinit CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":113 5F10 text14 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":116 5F12 text14 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":118 5F14 text14 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":119 5F1A text14 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":120 5F20 text14 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":121 5F26 text14 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":116 5F2E text14 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":124 5F48 text14 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":125 5F4E text14 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":127 5F50 text14 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":128 5F60 text14 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":125 5F64 text14 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":131 5F74 text14 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":125 5F76 text14 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/SENO.c":37 5F78 text9 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/SENO.c":39 5F78 text9 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/SENO.c":43 5F7C text9 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/SENO.c":46 5F8E text9 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/SENO.c":47 5F90 text9 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/SENO.c":49 5FA8 text9 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/SENO.c":47 5FD6 text9 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/SENO.c":46 5FDC text9 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/SENO.c":51 5FDC text9 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/SENO.c":53 5FDE text9 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/SENO.c":46 5FE0 text9 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/SENO.c":55 5FE2 text8 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/SENO.c":57 5FE2 text8 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/SENO.c":60 5FE6 text8 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/SENO.c":63 5FF8 text8 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/SENO.c":64 5FFA text8 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/SENO.c":66 6012 text8 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/SENO.c":64 6040 text8 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/SENO.c":63 6046 text8 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/SENO.c":68 6046 text8 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/SENO.c":70 6048 text8 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/SENO.c":63 604A text8 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/SENO.c":72 604C text7 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/SENO.c":74 604C text7 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/SENO.c":77 6050 text7 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/SENO.c":80 6062 text7 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/SENO.c":81 6064 text7 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/SENO.c":83 607C text7 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/SENO.c":81 60AA text7 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/SENO.c":80 60B0 text7 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/SENO.c":85 60B0 text7 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/SENO.c":87 60B2 text7 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/SENO.c":80 60B4 text7 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/TRIANGULAR.c":35 60B6 text5 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/TRIANGULAR.c":37 60B6 text5 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/TRIANGULAR.c":41 60BA text5 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/TRIANGULAR.c":43 60CC text5 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/TRIANGULAR.c":44 60CE text5 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/TRIANGULAR.c":46 60E6 text5 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/TRIANGULAR.c":44 6114 text5 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/TRIANGULAR.c":43 611A text5 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/TRIANGULAR.c":48 611A text5 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/TRIANGULAR.c":50 611C text5 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/TRIANGULAR.c":43 611E text5 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/TRIANGULAR.c":52 6120 text4 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/TRIANGULAR.c":54 6120 text4 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/TRIANGULAR.c":57 6124 text4 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/TRIANGULAR.c":59 6136 text4 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/TRIANGULAR.c":60 6138 text4 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/TRIANGULAR.c":62 6150 text4 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/TRIANGULAR.c":60 617E text4 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/TRIANGULAR.c":59 6184 text4 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/TRIANGULAR.c":64 6184 text4 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/TRIANGULAR.c":66 6186 text4 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/TRIANGULAR.c":59 6188 text4 CODE
+"/opt/microchip/xc8/v1.32/sources/common/lldiv.c":8 618A text13 CODE
+"/opt/microchip/xc8/v1.32/sources/common/lldiv.c":14 618A text13 CODE
+"/opt/microchip/xc8/v1.32/sources/common/lldiv.c":15 619A text13 CODE
+"/opt/microchip/xc8/v1.32/sources/common/lldiv.c":16 61A6 text13 CODE
+"/opt/microchip/xc8/v1.32/sources/common/lldiv.c":17 61AA text13 CODE
+"/opt/microchip/xc8/v1.32/sources/common/lldiv.c":18 61AC text13 CODE
+"/opt/microchip/xc8/v1.32/sources/common/lldiv.c":19 61B6 text13 CODE
+"/opt/microchip/xc8/v1.32/sources/common/lldiv.c":17 61B8 text13 CODE
+"/opt/microchip/xc8/v1.32/sources/common/lldiv.c":22 61BC text13 CODE
+"/opt/microchip/xc8/v1.32/sources/common/lldiv.c":23 61C6 text13 CODE
+"/opt/microchip/xc8/v1.32/sources/common/lldiv.c":24 61DA text13 CODE
+"/opt/microchip/xc8/v1.32/sources/common/lldiv.c":25 61EA text13 CODE
+"/opt/microchip/xc8/v1.32/sources/common/lldiv.c":27 61EC text13 CODE
+"/opt/microchip/xc8/v1.32/sources/common/lldiv.c":28 61F6 text13 CODE
+"/opt/microchip/xc8/v1.32/sources/common/lldiv.c":29 61FA text13 CODE
+"/opt/microchip/xc8/v1.32/sources/common/lldiv.c":30 61FA text13 CODE
+"/opt/microchip/xc8/v1.32/sources/common/lldiv.c":31 620A text13 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/SENO.c":11 620C text10 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/SENO.c":15 620C text10 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/SENO.c":16 6214 text10 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/SENO.c":17 6216 text10 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/SENO.c":18 6218 text10 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/SENO.c":19 621C text10 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/SENO.c":20 623E text10 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/SENO.c":22 625A text10 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/SENO.c":23 6262 text10 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/SENO.c":25 626E text10 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/SENO.c":26 6276 text10 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/SENO.c":27 6282 text10 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/SENO.c":28 6290 text10 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/SENO.c":29 6292 text10 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/SENO.c":30 6294 text10 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/SENO.c":31 6296 text10 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/SENO.c":32 6298 text10 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/SENO.c":33 629A text10 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/SENO.c":35 629C text10 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/TRIANGULAR.c":9 629E text6 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/TRIANGULAR.c":13 629E text6 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/TRIANGULAR.c":14 62A6 text6 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/TRIANGULAR.c":15 62A8 text6 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/TRIANGULAR.c":16 62AA text6 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/TRIANGULAR.c":17 62AE text6 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/TRIANGULAR.c":18 62D0 text6 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/TRIANGULAR.c":20 62EC text6 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/TRIANGULAR.c":21 62F4 text6 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/TRIANGULAR.c":23 6300 text6 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/TRIANGULAR.c":24 6308 text6 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/TRIANGULAR.c":25 6314 text6 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/TRIANGULAR.c":26 6322 text6 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/TRIANGULAR.c":27 6324 text6 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/TRIANGULAR.c":28 6326 text6 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/TRIANGULAR.c":29 6328 text6 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/TRIANGULAR.c":30 632A text6 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/TRIANGULAR.c":31 632C text6 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/TRIANGULAR.c":33 632E text6 CODE
+"/opt/microchip/xc8/v1.32/sources/common/awdiv.c":8 63C8 text11 CODE
+"/opt/microchip/xc8/v1.32/sources/common/awdiv.c":14 63C8 text11 CODE
+"/opt/microchip/xc8/v1.32/sources/common/awdiv.c":15 63CC text11 CODE
+"/opt/microchip/xc8/v1.32/sources/common/awdiv.c":16 63E0 text11 CODE
+"/opt/microchip/xc8/v1.32/sources/common/awdiv.c":17 63E8 text11 CODE
+"/opt/microchip/xc8/v1.32/sources/common/awdiv.c":19 63EC text11 CODE
+"/opt/microchip/xc8/v1.32/sources/common/awdiv.c":20 6400 text11 CODE
+"/opt/microchip/xc8/v1.32/sources/common/awdiv.c":21 6408 text11 CODE
+"/opt/microchip/xc8/v1.32/sources/common/awdiv.c":23 640C text11 CODE
+"/opt/microchip/xc8/v1.32/sources/common/awdiv.c":24 6414 text11 CODE
+"/opt/microchip/xc8/v1.32/sources/common/awdiv.c":25 641C text11 CODE
+"/opt/microchip/xc8/v1.32/sources/common/awdiv.c":26 6420 text11 CODE
+"/opt/microchip/xc8/v1.32/sources/common/awdiv.c":27 6422 text11 CODE
+"/opt/microchip/xc8/v1.32/sources/common/awdiv.c":28 6428 text11 CODE
+"/opt/microchip/xc8/v1.32/sources/common/awdiv.c":26 642A text11 CODE
+"/opt/microchip/xc8/v1.32/sources/common/awdiv.c":31 642E text11 CODE
+"/opt/microchip/xc8/v1.32/sources/common/awdiv.c":32 6434 text11 CODE
+"/opt/microchip/xc8/v1.32/sources/common/awdiv.c":33 6440 text11 CODE
+"/opt/microchip/xc8/v1.32/sources/common/awdiv.c":34 6448 text11 CODE
+"/opt/microchip/xc8/v1.32/sources/common/awdiv.c":36 644A text11 CODE
+"/opt/microchip/xc8/v1.32/sources/common/awdiv.c":37 6450 text11 CODE
+"/opt/microchip/xc8/v1.32/sources/common/awdiv.c":39 6454 text11 CODE
+"/opt/microchip/xc8/v1.32/sources/common/awdiv.c":40 645A text11 CODE
+"/opt/microchip/xc8/v1.32/sources/common/awdiv.c":41 6462 text11 CODE
+"/opt/microchip/xc8/v1.32/sources/common/almod.c":8 646C text21 CODE
+"/opt/microchip/xc8/v1.32/sources/common/almod.c":13 646C text21 CODE
+"/opt/microchip/xc8/v1.32/sources/common/almod.c":14 6470 text21 CODE
+"/opt/microchip/xc8/v1.32/sources/common/almod.c":15 648C text21 CODE
+"/opt/microchip/xc8/v1.32/sources/common/almod.c":16 649C text21 CODE
+"/opt/microchip/xc8/v1.32/sources/common/almod.c":18 64A0 text21 CODE
+"/opt/microchip/xc8/v1.32/sources/common/almod.c":19 64BC text21 CODE
+"/opt/microchip/xc8/v1.32/sources/common/almod.c":20 64CC text21 CODE
+"/opt/microchip/xc8/v1.32/sources/common/almod.c":21 64D8 text21 CODE
+"/opt/microchip/xc8/v1.32/sources/common/almod.c":22 64DC text21 CODE
+"/opt/microchip/xc8/v1.32/sources/common/almod.c":23 64DE text21 CODE
+"/opt/microchip/xc8/v1.32/sources/common/almod.c":24 64E8 text21 CODE
+"/opt/microchip/xc8/v1.32/sources/common/almod.c":22 64EA text21 CODE
+"/opt/microchip/xc8/v1.32/sources/common/almod.c":27 64EE text21 CODE
+"/opt/microchip/xc8/v1.32/sources/common/almod.c":28 6502 text21 CODE
+"/opt/microchip/xc8/v1.32/sources/common/almod.c":29 6512 text21 CODE
+"/opt/microchip/xc8/v1.32/sources/common/almod.c":30 651C text21 CODE
+"/opt/microchip/xc8/v1.32/sources/common/almod.c":32 6520 text21 CODE
+"/opt/microchip/xc8/v1.32/sources/common/almod.c":33 6526 text21 CODE
+"/opt/microchip/xc8/v1.32/sources/common/almod.c":34 6536 text21 CODE
+"/opt/microchip/xc8/v1.32/sources/common/aldiv.c":8 6548 text22 CODE
+"/opt/microchip/xc8/v1.32/sources/common/aldiv.c":14 6548 text22 CODE
+"/opt/microchip/xc8/v1.32/sources/common/aldiv.c":15 654C text22 CODE
+"/opt/microchip/xc8/v1.32/sources/common/aldiv.c":16 6568 text22 CODE
+"/opt/microchip/xc8/v1.32/sources/common/aldiv.c":17 6578 text22 CODE
+"/opt/microchip/xc8/v1.32/sources/common/aldiv.c":19 657C text22 CODE
+"/opt/microchip/xc8/v1.32/sources/common/aldiv.c":20 6598 text22 CODE
+"/opt/microchip/xc8/v1.32/sources/common/aldiv.c":21 65A8 text22 CODE
+"/opt/microchip/xc8/v1.32/sources/common/aldiv.c":23 65AC text22 CODE
+"/opt/microchip/xc8/v1.32/sources/common/aldiv.c":24 65BC text22 CODE
+"/opt/microchip/xc8/v1.32/sources/common/aldiv.c":25 65C8 text22 CODE
+"/opt/microchip/xc8/v1.32/sources/common/aldiv.c":26 65CC text22 CODE
+"/opt/microchip/xc8/v1.32/sources/common/aldiv.c":27 65CE text22 CODE
+"/opt/microchip/xc8/v1.32/sources/common/aldiv.c":28 65D8 text22 CODE
+"/opt/microchip/xc8/v1.32/sources/common/aldiv.c":26 65DA text22 CODE
+"/opt/microchip/xc8/v1.32/sources/common/aldiv.c":31 65DE text22 CODE
+"/opt/microchip/xc8/v1.32/sources/common/aldiv.c":32 65E8 text22 CODE
+"/opt/microchip/xc8/v1.32/sources/common/aldiv.c":33 65FC text22 CODE
+"/opt/microchip/xc8/v1.32/sources/common/aldiv.c":34 660C text22 CODE
+"/opt/microchip/xc8/v1.32/sources/common/aldiv.c":36 660E text22 CODE
+"/opt/microchip/xc8/v1.32/sources/common/aldiv.c":37 6618 text22 CODE
+"/opt/microchip/xc8/v1.32/sources/common/aldiv.c":39 661C text22 CODE
+"/opt/microchip/xc8/v1.32/sources/common/aldiv.c":40 6622 text22 CODE
+"/opt/microchip/xc8/v1.32/sources/common/aldiv.c":41 6632 text22 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":48 6644 text17 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":50 6644 text17 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":51 6646 text17 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":52 6648 text17 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":53 664A text17 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":54 664C text17 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":55 664E text17 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":56 6650 text17 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":57 6652 text17 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":58 6654 text17 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":59 6656 text17 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":60 6658 text17 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":61 665A text17 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":62 665C text17 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":63 665E text17 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":64 6660 text17 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":65 666E text17 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":66 667C text17 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":67 668A text17 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":68 6698 text17 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":69 66A6 text17 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":70 66B4 text17 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":71 66BA text17 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":72 66BA text17 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":73 66C4 text17 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":74 66CE text17 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":75 66D2 text17 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":76 66DA text17 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":77 66E4 text17 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":78 66E6 text17 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":70 66F4 text17 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":80 66FC text17 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":81 6708 text17 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":82 6714 text17 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":83 671C text17 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":84 6728 text17 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":85 6736 text17 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":86 6740 text17 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":87 674A text17 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":88 6754 text17 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":89 675E text17 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":148 6760 text18 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":149 6762 text18 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":150 6766 text18 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":151 67A4 text18 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":152 67E0 text18 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":153 67E8 text18 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":154 67F4 text18 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":155 6836 text18 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":156 6864 text18 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":157 686C text18 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":158 6878 text18 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":159 6886 text18 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":134 6888 text16 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":135 688A text16 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":136 688E text16 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":137 68CC text16 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":138 6908 text16 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":139 6910 text16 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":140 691C text16 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":141 695E text16 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":142 698C text16 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":143 6994 text16 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":144 69A0 text16 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/LCD.h":145 69B6 text16 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/conversion.c":13 69B8 text19 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/conversion.c":17 69B8 text19 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/conversion.c":18 69C0 text19 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/conversion.c":19 69C4 text19 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/conversion.c":21 69D4 text19 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/conversion.c":22 69DC text19 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/conversion.c":24 69E8 text19 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/conversion.c":26 6A04 text19 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/conversion.c":30 6A38 text19 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/conversion.c":31 6A3E text19 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/conversion.c":33 6A7A text19 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/conversion.c":34 6A88 text19 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/conversion.c":36 6AC8 text19 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/conversion.c":38 6AE4 text19 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/conversion.c":39 6AEA text19 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/conversion.c":42 6AF6 text19 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/conversion.c":43 6B30 text19 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/conversion.c":50 6B36 text19 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/conversion.c":43 6B5A text19 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/conversion.c":53 6B82 text19 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/PWM.c":10 6B90 text12 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/PWM.c":17 6B90 text12 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/PWM.c":18 6B92 text12 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/PWM.c":19 6B98 text12 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/PWM.c":20 6BA0 text12 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/PWM.c":21 6BB0 text12 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/PWM.c":22 6BE0 text12 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/PWM.c":23 6C12 text12 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/PWM.c":24 6C16 text12 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/PWM.c":25 6C18 text12 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/PWM.c":26 6C34 text12 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/PWM.c":27 6C36 text12 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/PWM.c":24 6C68 text12 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/PWM.c":29 6C8C text12 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/PWM.c":30 6C96 text12 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/PWM.c":37 6C9A text12 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/PWM.c":38 6CAA text12 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/PWM.c":39 6CB6 text12 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/PWM.c":40 6CE6 text12 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/PWM.c":41 6D16 text12 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/PWM.c":42 6D4A text12 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/PWM.c":43 6D52 text12 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/PWM.c":44 6D5A text12 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/PWM.c":45 6D7C text12 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/PWM.c":46 6D80 text12 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/PWM.c":47 6D86 text12 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/PWM.c":48 6DB8 text12 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/PWM.c":49 6DBC text12 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/PWM.c":50 6DBE text12 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/PWM.c":51 6DC2 text12 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":27 6DC4 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":29 6DC4 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":31 6DD6 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":32 6DFA text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":33 6DFE text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":34 6E02 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":35 6E08 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":37 6E0C text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":38 6E10 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":41 6E16 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":43 6E1A text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":44 6E20 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":47 6E30 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":49 6E34 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":50 6E3C text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":51 6E4C text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":53 6E4C text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":54 6E56 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":55 6E5A text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":56 6E60 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":57 6E66 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":58 6E78 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":59 6E8A text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":64 6E8E text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":65 6E9A text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":66 6E9E text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":67 6EA4 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":68 6EAA text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":69 6EBC text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":70 6ECE text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":73 6ED2 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":75 6ED8 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":76 6EE4 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":77 6EEE text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":78 6EF2 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":79 6EF8 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":80 6EFE text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":81 6F10 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":82 6F22 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":84 6F26 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":85 6F32 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":86 6F36 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":87 6F3C text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":88 6F42 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":89 6F54 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":90 6F66 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":93 6F6A text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":95 6F70 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":96 6F7C text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":97 6F86 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":98 6F8A text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":99 6F90 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":100 6F96 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":101 6FA8 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":102 6FBA text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":105 6FBE text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":107 6FC8 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":108 6FCC text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":109 6FD2 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":110 6FD8 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":111 6FEA text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":112 6FFC text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":115 7000 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":116 7004 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":118 7010 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":119 7014 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":120 701A text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":121 7020 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":122 7032 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":124 7036 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":125 703A text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":126 703E text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":127 7052 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":128 705A text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":129 705E text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":130 7060 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":132 706A text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":134 7074 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":136 707E text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":138 7088 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":140 7092 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":142 709C text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":144 70A6 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":146 70B0 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":147 70BC text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":129 70BE text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":150 70F8 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":151 7100 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":153 7106 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":154 710A text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":157 7116 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":162 7120 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":163 712C text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":164 7130 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":165 7136 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":166 713C text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":167 714E text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":168 7160 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":170 7164 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":173 7168 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":176 7174 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":177 717E text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":178 7182 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":179 7188 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":180 718E text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":181 71A0 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":182 71B2 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":183 71C4 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":184 71D6 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":185 71E8 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":186 71FA text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":187 71FE text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":190 720A text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":191 7216 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":192 721A text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":193 7220 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":194 7226 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":195 7238 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":196 724A text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":197 725C text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":198 726E text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":199 7280 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":200 7292 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":201 7296 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":204 72A2 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":205 72AE text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":206 72B2 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":207 72B8 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":208 72BE text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":209 72D0 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":210 72E2 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":211 72F4 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":212 7306 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":213 7318 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":214 732A text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":215 732E text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":219 733A text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":220 7346 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":221 734A text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":222 7350 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":223 7356 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":224 7368 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":225 737A text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":226 738C text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":227 739E text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":228 73B0 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":229 73C2 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":230 73C6 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":234 73D2 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":235 73DE text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":236 73E2 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":237 73E8 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":238 73EE text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":239 7400 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":240 7412 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":241 7424 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":242 7436 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":243 7448 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":244 745A text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":245 745E text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":249 746A text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":250 7476 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":251 747A text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":252 7480 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":253 7486 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":254 7498 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":255 74AA text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":256 74BC text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":257 74CE text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":258 74E0 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":259 74F2 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":260 74F6 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":264 7502 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":267 750E text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":268 7512 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":269 7518 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":270 751E text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":271 7530 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":272 7542 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":273 7554 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":274 7566 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":275 756A text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":279 7576 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":283 7582 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":284 7586 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":285 758C text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":286 7592 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":287 75A4 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":288 75B6 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":289 75C8 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":290 75DA text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":291 75DE text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":294 75EA text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":297 75F6 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":298 75FA text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":299 7600 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":300 7606 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":301 7618 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":302 762A text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":303 763C text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":304 764E text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":305 7652 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":309 765E text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":313 766A text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":314 766E text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":315 7674 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":316 767A text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":317 768C text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":318 769E text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":319 76B0 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":320 76C2 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":321 76C6 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":324 76D2 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":326 76D6 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":327 76DC text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":330 76EC text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":332 76F0 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":333 76F8 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":334 7708 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":336 7708 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":337 7718 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":344 7724 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":345 7728 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":348 7734 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":352 773E text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":353 773E text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":355 7742 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":356 7748 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":359 7758 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":361 775C text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":362 7764 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":363 7774 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":365 7774 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":366 7784 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":374 7790 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":375 7796 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":378 77A2 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":381 77AE text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":382 77BA text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":383 77BE text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":384 77C4 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":385 77CA text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":386 77DC text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":387 77EE text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":390 77F2 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":391 77F6 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":392 7802 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":393 7806 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":394 780C text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":398 7812 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":400 782E text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":401 7854 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":403 785A text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":405 786E text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":406 7880 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":407 7894 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":408 789C text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":409 78AE text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":410 78C0 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":411 78E6 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":415 78FC text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":416 7900 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":418 790C text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":419 7916 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":420 7916 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":421 791C text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":424 7928 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":426 792C text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":427 7932 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":430 7942 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":432 7946 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":433 794E text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":434 795E text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":435 795E text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":436 796E text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":442 797A text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":451 7986 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":452 7992 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":453 7996 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":454 799C text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":455 79A2 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":456 79B4 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":457 79C6 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":459 79CA text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":460 79CE text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":463 79DA text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":464 79E4 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":465 79E8 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":466 79EE text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":467 79F4 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":468 7A06 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":469 7A18 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":470 7A1C text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":471 7A20 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":472 7A2C text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":473 7A30 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":474 7A36 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":475 7A3C text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":477 7A4E text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":478 7A52 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":479 7A56 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":481 7A62 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":485 7A6C text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":486 7A76 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":487 7A7A text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":488 7A80 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":489 7A86 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":490 7A98 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":491 7AAA text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":492 7AAE text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":493 7AB2 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":494 7ABE text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":495 7AC2 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":496 7AC8 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":497 7ACE text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":499 7AE0 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":500 7AE4 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":501 7AE8 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":503 7AF4 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":507 7AFE text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":508 7B0A text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":509 7B0E text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":510 7B14 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":511 7B1A text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":512 7B2C text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":513 7B30 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":514 7B34 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":515 7B40 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":516 7B44 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":517 7B4A text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":518 7B50 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":520 7B62 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":521 7B66 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":522 7B6A text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":524 7B76 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":526 7B80 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":528 7B80 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":530 7B84 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":531 7B8A text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":534 7B9A text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":536 7B9E text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":537 7BA6 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":538 7BB6 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":539 7BB6 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":540 7BC6 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":546 7BD2 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":547 7BD8 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":549 7BE4 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":556 7BEE text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":557 7BFA text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":558 7BFE text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":559 7C04 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":560 7C0A text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":561 7C1C text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":564 7C20 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":565 7C24 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":568 7C30 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":569 7C3A text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":570 7C46 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":571 7C4A text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":572 7C50 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":573 7C56 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":574 7C68 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":575 7C7A text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":576 7C7E text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":577 7C82 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":578 7C8E text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":579 7C92 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":580 7C98 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":581 7C9E text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":583 7CB0 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":584 7CB4 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":585 7CB8 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":587 7CC4 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":591 7CCE text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":592 7CD8 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":593 7CDC text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":594 7CE2 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":595 7CE8 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":596 7CFA text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":597 7D0C text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":598 7D10 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":599 7D14 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":600 7D20 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":601 7D24 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":602 7D2A text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":603 7D30 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":605 7D42 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":606 7D46 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":607 7D4A text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":609 7D56 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":613 7D60 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":614 7D6C text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":615 7D70 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":616 7D76 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":617 7D7C text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":618 7D8E text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":619 7D92 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":620 7D96 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":621 7DA2 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":622 7DA6 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":623 7DAC text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":624 7DB2 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":626 7DC4 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":627 7DC8 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":628 7DCC text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":630 7DD8 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":632 7DE2 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":634 7DE2 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":636 7DE6 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":637 7DEC text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":640 7DFC text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":642 7E00 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":643 7E08 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":644 7E18 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":645 7E18 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":646 7E28 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":652 7E34 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":653 7E3A text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":655 7E46 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":662 7E50 text0 CODE
+"/home/francisco/Documentos/Tareas_ayuda/Grupo2/Proyecto1/p1/P1.X/MAIN.c":663 7E62 text0 CODE
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+__end_of_SENO_GENERAR_1 5FE2 0 CODE 0 text9 dist/default/production/P1.X.production.obj
+___aldiv@counter 9 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+__end_of_SENO_GENERAR_2 604C 0 CODE 0 text8 dist/default/production/P1.X.production.obj
+__CFG_XINST$OFF 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+__end_of_SENO_GENERAR_3 60B6 0 CODE 0 text7 dist/default/production/P1.X.production.obj
+___lldiv@counter D 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+_B CE 0 BANK0 1 bssBANK0 dist/default/production/P1.X.production.obj
+_C 3E 0 COMRAM 1 bssCOMRAM dist/default/production/P1.X.production.obj
+_D 40 0 COMRAM 1 bssCOMRAM dist/default/production/P1.X.production.obj
+_M D0 0 BANK0 1 bssBANK0 dist/default/production/P1.X.production.obj
+___awdiv@counter 5 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+_e D2 0 BANK0 1 bssBANK0 dist/default/production/P1.X.production.obj
+_p D4 0 BANK0 1 bssBANK0 dist/default/production/P1.X.production.obj
+_q D6 0 BANK0 1 bssBANK0 dist/default/production/P1.X.production.obj
+_r D8 0 BANK0 1 bssBANK0 dist/default/production/P1.X.production.obj
+_t DA 0 BANK0 1 bssBANK0 dist/default/production/P1.X.production.obj
+_w DC 0 BANK0 1 bssBANK0 dist/default/production/P1.X.production.obj
+__size_of_Lcd_Cmd 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+Conv_Entero@punteroActual 32 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+_PR2 FBB 0 ABS 0 - dist/default/production/P1.X.production.obj
+__S0 30000E 0 ABS 0 - dist/default/production/P1.X.production.obj
+__S1 198 0 ABS 0 - dist/default/production/P1.X.production.obj
+__S2 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+_PWM 620C 0 CODE 0 text10 dist/default/production/P1.X.production.obj
+__Hintentry 0 0 ABS 0 intentry dist/default/production/P1.X.production.obj
+__Lintentry 0 0 ABS 0 intentry dist/default/production/P1.X.production.obj
+__end_of___awdiv 646C 0 CODE 0 text11 dist/default/production/P1.X.production.obj
+_TMR2 FBC 0 ABS 0 - dist/default/production/P1.X.production.obj
+__CFG_SDOMX$RB3 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+__size_of___almod 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+_SENO_GENERAR_3 604C 0 CODE 0 text7 dist/default/production/P1.X.production.obj
+Conv_Entero@numero F 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+Lcd_Out2@x 4 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+_main 6DC4 0 CODE 0 text0 dist/default/production/P1.X.production.obj
+Lcd_Out2@y 7 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+___sp 0 0 STACK 2 stack /tmp/cgtfcXN1d.obj
+__size_of_SENO_GENERAR_1 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+start 0 0 CODE 0 init /tmp/cgtfcXN1d.obj
+__size_of_SENO_GENERAR_2 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+__CFG_T3CMX$RC0 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+__size_of_SENO_GENERAR_3 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+Lcd_Out2@buffer 5 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+__end_of___aldiv 6644 0 CODE 0 text22 dist/default/production/P1.X.production.obj
+Lcd_Chr_CP@data 3 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+_PWM_1 629E 0 CODE 0 text6 dist/default/production/P1.X.production.obj
+_TRISA F92 0 ABS 0 - dist/default/production/P1.X.production.obj
+_PORTA F80 0 ABS 0 - dist/default/production/P1.X.production.obj
+__Hirdata 0 0 CODE 0 irdata dist/default/production/P1.X.production.obj
+main@A CD 0 BANK0 1 cstackBANK0 dist/default/production/P1.X.production.obj
+__Lirdata 0 0 CODE 0 irdata dist/default/production/P1.X.production.obj
+__HRAM 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+__LRAM 1 0 ABS 0 - dist/default/production/P1.X.production.obj
+_T2CON FBA 0 ABS 0 - dist/default/production/P1.X.production.obj
+__end_of_PWM 629E 0 CODE 0 text10 dist/default/production/P1.X.production.obj
+Conv_Entero@conv 13 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+Lcd_Out@x 4 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+PWM@canal 9 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+Conv_Entero@numeroReg 34 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+__CFG_WDTPS$32768 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+__Hconfig 30000E 0 CONFIG 0 config dist/default/production/P1.X.production.obj
+main@V C4 0 BANK0 1 cstackBANK0 dist/default/production/P1.X.production.obj
+__Lconfig 300000 0 CONFIG 0 config dist/default/production/P1.X.production.obj
+Lcd_Out@y 7 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+main@X C9 0 BANK0 1 cstackBANK0 dist/default/production/P1.X.production.obj
+TRIAN_GENERAR_3@F7369 7E 0 BANK0 1 dataBANK0 dist/default/production/P1.X.production.obj
+__end_of_Lcd_Init 6760 0 CODE 0 text17 dist/default/production/P1.X.production.obj
+main@Z CB 0 BANK0 1 cstackBANK0 dist/default/production/P1.X.production.obj
+?___almod 1 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+Lcd_Out@buffer 5 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+__end_of_Lcd_Out 5EAC 0 CODE 0 text15 dist/default/production/P1.X.production.obj
+__end_of_Lcd_Out2 5F78 0 CODE 0 text14 dist/default/production/P1.X.production.obj
+_tm_1s 5D3E 0 CODE 0 text1 dist/default/production/P1.X.production.obj
+__Hbigram 0 0 ABS 0 bigram dist/default/production/P1.X.production.obj
+__Lbigram 0 0 ABS 0 bigram dist/default/production/P1.X.production.obj
+__Hrparam 0 0 ABS 0 rparam dist/default/production/P1.X.production.obj
+__Lrparam 0 0 ABS 0 rparam dist/default/production/P1.X.production.obj
+__Hram 0 0 ABS 0 ram dist/default/production/P1.X.production.obj
+__Lram 0 0 ABS 0 ram dist/default/production/P1.X.production.obj
+__Hcomram 0 0 ABS 0 comram dist/default/production/P1.X.production.obj
+__Lcomram 0 0 ABS 0 comram dist/default/production/P1.X.production.obj
+Conv_Entero@convTemp 1A 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+__Hsfr 0 0 ABS 0 sfr dist/default/production/P1.X.production.obj
+__Lsfr 0 0 ABS 0 sfr dist/default/production/P1.X.production.obj
+__end_of__stringdata 7FFE 0 MEDIUMCONST 0 mediumconst dist/default/production/P1.X.production.obj
+__Hbss 0 0 RAM 1 bss dist/default/production/P1.X.production.obj
+__CFG_STVREN$ON 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+__Lbss 0 0 RAM 1 bss dist/default/production/P1.X.production.obj
+__Hnvrram 0 0 COMRAM 1 nvrram dist/default/production/P1.X.production.obj
+__Lnvrram 0 0 COMRAM 1 nvrram dist/default/production/P1.X.production.obj
+_Lcd_Init 6644 0 CODE 0 text17 dist/default/production/P1.X.production.obj
+main@cant C8 0 BANK0 1 cstackBANK0 dist/default/production/P1.X.production.obj
+__Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production/P1.X.production.obj
+__Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production/P1.X.production.obj
+__Hintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production/P1.X.production.obj
+__Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production/P1.X.production.obj
+?___aldiv 1 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+_CCPR1L FBE 0 ABS 0 - dist/default/production/P1.X.production.obj
+_ANSELA F5B 0 ABS 0 - dist/default/production/P1.X.production.obj
+_CCPR2L F90 0 ABS 0 - dist/default/production/P1.X.production.obj
+?___lldiv 1 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+_ANSELC F5D 0 ABS 0 - dist/default/production/P1.X.production.obj
+_lcd_goto 5DA6 0 CODE 0 text2 dist/default/production/P1.X.production.obj
+_ANSELD F5E 0 ABS 0 - dist/default/production/P1.X.production.obj
+__Hbigbss 0 0 BIGRAM 1 bigbss dist/default/production/P1.X.production.obj
+__Lbigbss 0 0 BIGRAM 1 bigbss dist/default/production/P1.X.production.obj
+?___awdiv 1 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+__Hintret 0 0 ABS 0 intret dist/default/production/P1.X.production.obj
+__Lintret 0 0 ABS 0 intret dist/default/production/P1.X.production.obj
+__Hramtop 800 0 RAM 0 ramtop dist/default/production/P1.X.production.obj
+__Lramtop 800 0 RAM 0 ramtop dist/default/production/P1.X.production.obj
+__Hstruct 0 0 COMRAM 1 struct dist/default/production/P1.X.production.obj
+__Lstruct 0 0 COMRAM 1 struct dist/default/production/P1.X.production.obj
+__Hbigdata 0 0 BIGRAM 1 bigdata dist/default/production/P1.X.production.obj
+__Lbigdata 0 0 BIGRAM 1 bigdata dist/default/production/P1.X.production.obj
+__Hmediumconst 8000 0 MEDIUMCONST 0 mediumconst dist/default/production/P1.X.production.obj
+__Lmediumconst 7E72 0 MEDIUMCONST 0 mediumconst dist/default/production/P1.X.production.obj
+__Hfarbss 0 0 FARRAM 0 farbss dist/default/production/P1.X.production.obj
+__Lfarbss 0 0 FARRAM 0 farbss dist/default/production/P1.X.production.obj
+__pmediumconst 7E72 0 MEDIUMCONST 0 mediumconst dist/default/production/P1.X.production.obj
+__Hintcode 0 0 CODE 0 intcode dist/default/production/P1.X.production.obj
+__Lintcode 0 0 CODE 0 intcode dist/default/production/P1.X.production.obj
+__Hfardata 0 0 FARRAM 0 fardata dist/default/production/P1.X.production.obj
+__Lfardata 0 0 FARRAM 0 fardata dist/default/production/P1.X.production.obj
+_OSCCON FD3 0 ABS 0 - dist/default/production/P1.X.production.obj
+__Habs1 0 0 ABS 0 abs1 dist/default/production/P1.X.production.obj
+__Labs1 0 0 ABS 0 abs1 dist/default/production/P1.X.production.obj
+PWM@BIT 220 -1DC COMRAM 1 bitbssCOMRAM dist/default/production/P1.X.production.obj
+__CFG_EBTR0$OFF 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+__HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production/P1.X.production.obj
+__end_of_Lcd_Chr_CP 69B8 0 CODE 0 text16 dist/default/production/P1.X.production.obj
+__LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production/P1.X.production.obj
+__size_of_PWM 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+main@cantidad C7 0 BANK0 1 cstackBANK0 dist/default/production/P1.X.production.obj
+lcd_goto@x 4 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+__CFG_EBTR1$OFF 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+lcd_goto@y 6 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+tm_1s@i 2 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+__CFG_EBTR2$OFF 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+Lcd_Out2@data 8 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+__Hdata 0 0 ABS 0 data dist/default/production/P1.X.production.obj
+__Ldata 0 0 ABS 0 data dist/default/production/P1.X.production.obj
+__CFG_EBTR3$OFF 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+stackhi 7FF 0 ABS 0 - /tmp/cgtfcXN1d.obj
+PWM_generar@duty E 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+__HcstackBANK0 0 0 ABS 0 cstackBANK0 dist/default/production/P1.X.production.obj
+__LcstackBANK0 0 0 ABS 0 cstackBANK0 dist/default/production/P1.X.production.obj
+___almod@sign A 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+__pcstackBANK0 9C 0 BANK0 1 cstackBANK0 dist/default/production/P1.X.production.obj
+__Htemp 0 0 COMRAM 1 temp dist/default/production/P1.X.production.obj
+__Ltemp 0 0 COMRAM 1 temp dist/default/production/P1.X.production.obj
+stacklo 198 0 ABS 0 - /tmp/cgtfcXN1d.obj
+__Hrbit 0 0 COMRAM 1 rbit dist/default/production/P1.X.production.obj
+__Lrbit 0 0 COMRAM 1 rbit dist/default/production/P1.X.production.obj
+___lmul 5DF4 0 CODE 0 text20 dist/default/production/P1.X.production.obj
+__Hinit 0 0 CODE 0 init dist/default/production/P1.X.production.obj
+__Linit 0 0 CODE 0 init dist/default/production/P1.X.production.obj
+__Hintcodelo 0 0 CODE 0 intcodelo dist/default/production/P1.X.production.obj
+__Lintcodelo 0 0 CODE 0 intcodelo dist/default/production/P1.X.production.obj
+___wmul 5D18 0 CODE 0 text3 dist/default/production/P1.X.production.obj
+__Hrbss 0 0 COMRAM 1 rbss dist/default/production/P1.X.production.obj
+__end_of_main 7E72 0 CODE 0 text0 dist/default/production/P1.X.production.obj
+__Lrbss 0 0 COMRAM 1 rbss dist/default/production/P1.X.production.obj
+__end_of_Lcd_Cmd 6888 0 CODE 0 text18 dist/default/production/P1.X.production.obj
+__Htext 0 0 ABS 0 text dist/default/production/P1.X.production.obj
+__Ltext 0 0 ABS 0 text dist/default/production/P1.X.production.obj
+___lmul@multiplier 1 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+___wmul@multiplier 1 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+__HdataBANK0 0 0 ABS 0 dataBANK0 dist/default/production/P1.X.production.obj
+__LdataBANK0 0 0 ABS 0 dataBANK0 dist/default/production/P1.X.production.obj
+_PWM_generar 6B90 0 CODE 0 text12 dist/default/production/P1.X.production.obj
+__pdataBANK0 60 0 BANK0 1 dataBANK0 dist/default/production/P1.X.production.obj
+__end_of___almod 6548 0 CODE 0 text21 dist/default/production/P1.X.production.obj
+end_of_initialization 5F06 0 CODE 0 cinit dist/default/production/P1.X.production.obj
+___aldiv@sign A 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+___awdiv@sign 6 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+_frecuencia 42 0 COMRAM 1 bssCOMRAM dist/default/production/P1.X.production.obj
+__size_of_Conv_Entero 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+SENO_GENERAR_1@seno 13 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+main@cadena B0 0 BANK0 1 cstackBANK0 dist/default/production/P1.X.production.obj
+___lmul@multiplicand 5 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+__CFG_nPWRTEN$ON 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+___wmul@multiplicand 3 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+__HdataBANK1 0 0 ABS 0 dataBANK1 dist/default/production/P1.X.production.obj
+__LdataBANK1 0 0 ABS 0 dataBANK1 dist/default/production/P1.X.production.obj
+__pdataBANK1 100 0 BANK1 1 dataBANK1 dist/default/production/P1.X.production.obj
+_SENO_GENERAR_1 5F78 0 CODE 0 text9 dist/default/production/P1.X.production.obj
+PWM_generar@fpwm 10 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+SENO_GENERAR_1@F7362 100 0 BANK1 1 dataBANK1 dist/default/production/P1.X.production.obj
+_TRISCbits F94 0 ABS 0 - dist/default/production/P1.X.production.obj
+_PORTAbits F80 0 ABS 0 - dist/default/production/P1.X.production.obj
+_TRISDbits F95 0 ABS 0 - dist/default/production/P1.X.production.obj
+__CFG_PCLKEN$OFF 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+_PORTDbits F83 0 ABS 0 - dist/default/production/P1.X.production.obj
+_T2CONbits FBA 0 ABS 0 - dist/default/production/P1.X.production.obj
+TRIAN_GENERAR_1@i 3B 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+__Hibigdata 0 0 CODE 0 ibigdata dist/default/production/P1.X.production.obj
+__Libigdata 0 0 CODE 0 ibigdata dist/default/production/P1.X.production.obj
+_CCP2CON F97 0 ABS 0 - dist/default/production/P1.X.production.obj
+__Hifardata 0 0 CODE 0 ifardata dist/default/production/P1.X.production.obj
+__Lifardata 0 0 CODE 0 ifardata dist/default/production/P1.X.production.obj
+__Hbank0 0 0 ABS 0 bank0 dist/default/production/P1.X.production.obj
+__Lbank0 0 0 ABS 0 bank0 dist/default/production/P1.X.production.obj
+_TRIAN_GENERAR_2 6120 0 CODE 0 text4 dist/default/production/P1.X.production.obj
+__Hbank1 0 0 ABS 0 bank1 dist/default/production/P1.X.production.obj
+__Lbank1 0 0 ABS 0 bank1 dist/default/production/P1.X.production.obj
+__Hbank2 0 0 ABS 0 bank2 dist/default/production/P1.X.production.obj
+__Lbank2 0 0 ABS 0 bank2 dist/default/production/P1.X.production.obj
+Lcd_Init@data 5 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+__size_of_PWM_1 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+__Hbank3 0 0 ABS 0 bank3 dist/default/production/P1.X.production.obj
+__Lbank3 0 0 ABS 0 bank3 dist/default/production/P1.X.production.obj
+__Hbank4 0 0 ABS 0 bank4 dist/default/production/P1.X.production.obj
+__Lbank4 0 0 ABS 0 bank4 dist/default/production/P1.X.production.obj
+__end_of___lmul 5E4A 0 CODE 0 text20 dist/default/production/P1.X.production.obj
+__Hbank5 0 0 ABS 0 bank5 dist/default/production/P1.X.production.obj
+__Lbank5 0 0 ABS 0 bank5 dist/default/production/P1.X.production.obj
+__Hpowerup 0 0 CODE 0 powerup dist/default/production/P1.X.production.obj
+__Lpowerup 0 0 CODE 0 powerup dist/default/production/P1.X.production.obj
+__Hbank6 0 0 ABS 0 bank6 dist/default/production/P1.X.production.obj
+TRIAN_GENERAR_1@F7362 128 0 BANK1 1 dataBANK1 dist/default/production/P1.X.production.obj
+__Lbank6 0 0 ABS 0 bank6 dist/default/production/P1.X.production.obj
+TRIAN_GENERAR_1@seno 13 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+__Hbank7 0 0 ABS 0 bank7 dist/default/production/P1.X.production.obj
+__Lbank7 0 0 ABS 0 bank7 dist/default/production/P1.X.production.obj
+lcd_goto@data A 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+__Htext0 0 0 ABS 0 text0 dist/default/production/P1.X.production.obj
+__Ltext0 0 0 ABS 0 text0 dist/default/production/P1.X.production.obj
+SENO_GENERAR_1@i 3B 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+__Htext1 0 0 ABS 0 text1 dist/default/production/P1.X.production.obj
+__Ltext1 0 0 ABS 0 text1 dist/default/production/P1.X.production.obj
+__ptext0 6DC4 0 CODE 0 text0 dist/default/production/P1.X.production.obj
+__Htext2 0 0 ABS 0 text2 dist/default/production/P1.X.production.obj
+__Ltext2 0 0 ABS 0 text2 dist/default/production/P1.X.production.obj
+PWM_1@canal 9 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+__ptext1 5D3E 0 CODE 0 text1 dist/default/production/P1.X.production.obj
+__Htext3 0 0 ABS 0 text3 dist/default/production/P1.X.production.obj
+__Ltext3 0 0 ABS 0 text3 dist/default/production/P1.X.production.obj
+__ptext2 5DA6 0 CODE 0 text2 dist/default/production/P1.X.production.obj
+__Htext4 0 0 ABS 0 text4 dist/default/production/P1.X.production.obj
+__Ltext4 0 0 ABS 0 text4 dist/default/production/P1.X.production.obj
+__ptext3 5D18 0 CODE 0 text3 dist/default/production/P1.X.production.obj
+__Htext5 0 0 ABS 0 text5 dist/default/production/P1.X.production.obj
+__Ltext5 0 0 ABS 0 text5 dist/default/production/P1.X.production.obj
+__ptext4 6120 0 CODE 0 text4 dist/default/production/P1.X.production.obj
+__end_of_PWM_generar 6DC4 0 CODE 0 text12 dist/default/production/P1.X.production.obj
+__Htext6 0 0 ABS 0 text6 dist/default/production/P1.X.production.obj
+__Ltext6 0 0 ABS 0 text6 dist/default/production/P1.X.production.obj
+__ptext5 60B6 0 CODE 0 text5 dist/default/production/P1.X.production.obj
+__Htext7 0 0 ABS 0 text7 dist/default/production/P1.X.production.obj
+__Ltext7 0 0 ABS 0 text7 dist/default/production/P1.X.production.obj
+__ptext6 629E 0 CODE 0 text6 dist/default/production/P1.X.production.obj
+__HbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production/P1.X.production.obj
+__LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production/P1.X.production.obj
+__Htext8 0 0 ABS 0 text8 dist/default/production/P1.X.production.obj
+__Ltext8 0 0 ABS 0 text8 dist/default/production/P1.X.production.obj
+__ptext7 604C 0 CODE 0 text7 dist/default/production/P1.X.production.obj
+__pbssCOMRAM 3E 0 COMRAM 1 bssCOMRAM dist/default/production/P1.X.production.obj
+__Htext9 0 0 ABS 0 text9 dist/default/production/P1.X.production.obj
+__Ltext9 0 0 ABS 0 text9 dist/default/production/P1.X.production.obj
+__ptext8 5FE2 0 CODE 0 text8 dist/default/production/P1.X.production.obj
+_Conv_Entero 69B8 0 CODE 0 text19 dist/default/production/P1.X.production.obj
+__ptext9 5F78 0 CODE 0 text9 dist/default/production/P1.X.production.obj
+PWM_1@duty B 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+__size_of_lcd_goto 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+__Hclrtext 0 0 ABS 0 clrtext dist/default/production/P1.X.production.obj
+__Lclrtext 0 0 ABS 0 clrtext dist/default/production/P1.X.production.obj
+__size_of_tm_1s 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+__end_of__initialization 5F06 0 CODE 0 cinit dist/default/production/P1.X.production.obj
+_CCP1CONbits FBD 0 ABS 0 - dist/default/production/P1.X.production.obj
+SENO_GENERAR_2@seno 13 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+_Lcd_Chr_CP 6888 0 CODE 0 text16 dist/default/production/P1.X.production.obj
+Conv_Entero@i 31 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+main@cad 9C 0 BANK0 1 cstackBANK0 dist/default/production/P1.X.production.obj
+_Lcd_Cmd 6760 0 CODE 0 text18 dist/default/production/P1.X.production.obj
+__end_of_lcd_goto 5DF4 0 CODE 0 text2 dist/default/production/P1.X.production.obj
+PWM_generar@AuxCCPR2L 1E 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+SENO_GENERAR_2@F7366 150 0 BANK1 1 dataBANK1 dist/default/production/P1.X.production.obj
+__Hidata 0 0 CODE 0 idata dist/default/production/P1.X.production.obj
+__Lidata 0 0 CODE 0 idata dist/default/production/P1.X.production.obj
+__Hrdata 0 0 COMRAM 1 rdata dist/default/production/P1.X.production.obj
+__Lrdata 0 0 COMRAM 1 rdata dist/default/production/P1.X.production.obj
+__size_of_PWM_generar 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+main@fre C6 0 BANK0 1 cstackBANK0 dist/default/production/P1.X.production.obj
+__Hidloc 200008 0 IDLOC 0 idloc dist/default/production/P1.X.production.obj
+__Lidloc 200000 0 IDLOC 0 idloc dist/default/production/P1.X.production.obj
+__Hstack 0 0 STACK 2 stack dist/default/production/P1.X.production.obj
+__Lstack 0 0 STACK 2 stack dist/default/production/P1.X.production.obj
+___almod 646C 0 CODE 0 text21 dist/default/production/P1.X.production.obj
+Conv_Entero@num 2F 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+__end_of___lldiv 620C 0 CODE 0 text13 dist/default/production/P1.X.production.obj
+__Hparam 0 0 ABS 0 rparam dist/default/production/P1.X.production.obj
+__Lparam 0 0 ABS 0 rparam dist/default/production/P1.X.production.obj
+__Hspace_0 30000E 0 ABS 0 - dist/default/production/P1.X.production.obj
+__HcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production/P1.X.production.obj
+__Lspace_0 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+__LcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production/P1.X.production.obj
+__pcstackCOMRAM 1 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+__Hspace_1 222 0 ABS 0 - dist/default/production/P1.X.production.obj
+__Lspace_1 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+__Hsmallconst 0 0 SMALLCONST 0 smallconst dist/default/production/P1.X.production.obj
+__Lsmallconst 0 0 SMALLCONST 0 smallconst dist/default/production/P1.X.production.obj
+_Lcd_Out 5E4A 0 CODE 0 text15 dist/default/production/P1.X.production.obj
+?___lmul 1 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+__Hspace_2 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+__Lspace_2 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+__Hnvbit 0 0 COMRAM 1 nvbit dist/default/production/P1.X.production.obj
+__Lnvbit 0 0 COMRAM 1 nvbit dist/default/production/P1.X.production.obj
+?___wmul 1 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+__Hcinit 0 0 ABS 0 cinit dist/default/production/P1.X.production.obj
+__Lcinit 0 0 ABS 0 cinit dist/default/production/P1.X.production.obj
+__size_of_Lcd_Chr_CP 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+___aldiv 6548 0 CODE 0 text22 dist/default/production/P1.X.production.obj
+___lldiv 618A 0 CODE 0 text13 dist/default/production/P1.X.production.obj
+__pcinit 5EAC 0 CODE 0 cinit dist/default/production/P1.X.production.obj
+__CFG_EBTRB$OFF 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+PWM_generar@AuxCCP2CON 18 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+___awdiv 63C8 0 CODE 0 text11 dist/default/production/P1.X.production.obj
+__ramtop 800 0 RAM 0 ramtop /tmp/cgtfcXN1d.obj
+__mediumconst 7E72 0 MEDIUMCONST 0 mediumconst /tmp/cgtfcXN1d.obj
+__size_of_main 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+SENO_GENERAR_2@i 37 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+__Hconst 0 0 CODE 0 const dist/default/production/P1.X.production.obj
+__Lconst 0 0 CODE 0 const dist/default/production/P1.X.production.obj
+PWM_1@calculos F 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+PWM@duty B 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+__CFG_CFGPLLEN$OFF 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+__HidataBANK0 0 0 ABS 0 idataBANK0 dist/default/production/P1.X.production.obj
+__LidataBANK0 0 0 ABS 0 idataBANK0 dist/default/production/P1.X.production.obj
+__pidataBANK0 5D6A 0 CODE 0 idataBANK0 dist/default/production/P1.X.production.obj
+__size_of_Lcd_Out 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+__size_of_Lcd_Out2 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+__CFG_WRT0$OFF 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+__HbitbssCOMRAM 0 0 ABS 0 bitbssCOMRAM dist/default/production/P1.X.production.obj
+__LbitbssCOMRAM 0 0 ABS 0 bitbssCOMRAM dist/default/production/P1.X.production.obj
+__pbitbssCOMRAM 220 -1DC COMRAM 1 bitbssCOMRAM dist/default/production/P1.X.production.obj
+PWM@calculos F 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+__CFG_WRT1$OFF 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+__HbssBANK0 0 0 ABS 0 bssBANK0 dist/default/production/P1.X.production.obj
+__LbssBANK0 0 0 ABS 0 bssBANK0 dist/default/production/P1.X.production.obj
+__CFG_WRT2$OFF 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+__pbssBANK0 CE 0 BANK0 1 bssBANK0 dist/default/production/P1.X.production.obj
+SENO_GENERAR_3@seno 13 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+Lcd_Cmd@data 3 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+__CFG_WRT3$OFF 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+__CFG_FCMEN$OFF 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+__Htext10 0 0 ABS 0 text10 dist/default/production/P1.X.production.obj
+__Ltext10 0 0 ABS 0 text10 dist/default/production/P1.X.production.obj
+__Htext20 0 0 ABS 0 text20 dist/default/production/P1.X.production.obj
+__Ltext20 0 0 ABS 0 text20 dist/default/production/P1.X.production.obj
+__ptext10 620C 0 CODE 0 text10 dist/default/production/P1.X.production.obj
+__Htext11 0 0 ABS 0 text11 dist/default/production/P1.X.production.obj
+__Ltext11 0 0 ABS 0 text11 dist/default/production/P1.X.production.obj
+__ptext20 5DF4 0 CODE 0 text20 dist/default/production/P1.X.production.obj
+__Htext21 0 0 ABS 0 text21 dist/default/production/P1.X.production.obj
+__Ltext21 0 0 ABS 0 text21 dist/default/production/P1.X.production.obj
+__ptext11 63C8 0 CODE 0 text11 dist/default/production/P1.X.production.obj
+__Htext12 0 0 ABS 0 text12 dist/default/production/P1.X.production.obj
+__Ltext12 0 0 ABS 0 text12 dist/default/production/P1.X.production.obj
+__ptext21 646C 0 CODE 0 text21 dist/default/production/P1.X.production.obj
+__end_of_PWM_1 6330 0 CODE 0 text6 dist/default/production/P1.X.production.obj
+__CFG_CPUDIV$NOCLKDIV 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+__Htext22 0 0 ABS 0 text22 dist/default/production/P1.X.production.obj
+__Ltext22 0 0 ABS 0 text22 dist/default/production/P1.X.production.obj
+_SENO_GENERAR_2 5FE2 0 CODE 0 text8 dist/default/production/P1.X.production.obj
+__ptext12 6B90 0 CODE 0 text12 dist/default/production/P1.X.production.obj
+__Htext13 0 0 ABS 0 text13 dist/default/production/P1.X.production.obj
+PWM_generar@PR2cal 1A 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+__Ltext13 0 0 ABS 0 text13 dist/default/production/P1.X.production.obj
+Lcd_Out@data 8 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+__ptext22 6548 0 CODE 0 text22 dist/default/production/P1.X.production.obj
+__ptext13 618A 0 CODE 0 text13 dist/default/production/P1.X.production.obj
+__Htext14 0 0 ABS 0 text14 dist/default/production/P1.X.production.obj
+__Ltext14 0 0 ABS 0 text14 dist/default/production/P1.X.production.obj
+__HidataBANK1 0 0 ABS 0 idataBANK1 dist/default/production/P1.X.production.obj
+__size_of___awdiv 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+__LidataBANK1 0 0 ABS 0 idataBANK1 dist/default/production/P1.X.production.obj
+SENO_GENERAR_3@F7369 60 0 BANK0 1 dataBANK0 dist/default/production/P1.X.production.obj
+__ptext14 5F10 0 CODE 0 text14 dist/default/production/P1.X.production.obj
+__pidataBANK1 6330 0 CODE 0 idataBANK1 dist/default/production/P1.X.production.obj
+__Htext15 0 0 ABS 0 text15 dist/default/production/P1.X.production.obj
+__Ltext15 0 0 ABS 0 text15 dist/default/production/P1.X.production.obj
+_TRIAN_GENERAR_1 60B6 0 CODE 0 text5 dist/default/production/P1.X.production.obj
+__ptext15 5E4A 0 CODE 0 text15 dist/default/production/P1.X.production.obj
+___inthi_sp 0 0 STACK 2 stack /tmp/cgtfcXN1d.obj
+__Htext16 0 0 ABS 0 text16 dist/default/production/P1.X.production.obj
+__Ltext16 0 0 ABS 0 text16 dist/default/production/P1.X.production.obj
+__ptext16 6888 0 CODE 0 text16 dist/default/production/P1.X.production.obj
+__Htext17 0 0 ABS 0 text17 dist/default/production/P1.X.production.obj
+__Ltext17 0 0 ABS 0 text17 dist/default/production/P1.X.production.obj
+___almod@divisor 5 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+__ptext17 6644 0 CODE 0 text17 dist/default/production/P1.X.production.obj
+__end_of_tm_1s 5D6A 0 CODE 0 text1 dist/default/production/P1.X.production.obj
+__Htext18 0 0 ABS 0 text18 dist/default/production/P1.X.production.obj
+__Ltext18 0 0 ABS 0 text18 dist/default/production/P1.X.production.obj
+TRIAN_GENERAR_2@i 37 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+__ptext18 6760 0 CODE 0 text18 dist/default/production/P1.X.production.obj
+__Htext19 0 0 ABS 0 text19 dist/default/production/P1.X.production.obj
+__Ltext19 0 0 ABS 0 text19 dist/default/production/P1.X.production.obj
+__CFG_WDTEN$OFF 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+__ptext19 69B8 0 CODE 0 text19 dist/default/production/P1.X.production.obj
+___intlo_sp 0 0 STACK 2 stack /tmp/cgtfcXN1d.obj
+__CFG_CCP2MX$RC1 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+__CFG_nLPBOR$OFF 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+__Hend_init 4 0 CODE 0 end_init dist/default/production/P1.X.production.obj
+__Lend_init 0 0 CODE 0 end_init dist/default/production/P1.X.production.obj
+__end_of_TRIAN_GENERAR_1 6120 0 CODE 0 text5 dist/default/production/P1.X.production.obj
+__end_of_TRIAN_GENERAR_2 618A 0 CODE 0 text4 dist/default/production/P1.X.production.obj
+__size_of_Lcd_Init 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+___aldiv@divisor 5 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+__CFG_PLLSEL$PLL4X 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+___lldiv@divisor 5 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+__size_of___lldiv 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+___awdiv@divisor 3 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+TRIAN_GENERAR_2@seno 13 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+TRIAN_GENERAR_2@F7366 174 0 BANK1 1 dataBANK1 dist/default/production/P1.X.production.obj
+SENO_GENERAR_3@i 31 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+__CFG_CP0$OFF 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+__smallconst 0 0 SMALLCONST 0 smallconst /tmp/cgtfcXN1d.obj
+__CFG_CP1$OFF 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+__size_of___wmul 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+__Hreset_vec 0 0 CODE 0 reset_vec dist/default/production/P1.X.production.obj
+__Lreset_vec 0 0 CODE 0 reset_vec dist/default/production/P1.X.production.obj
+__CFG_CP2$OFF 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+PWM_generar@prescalador 16 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+__CFG_CP3$OFF 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+__stringdata 7E73 0 MEDIUMCONST 0 mediumconst dist/default/production/P1.X.production.obj
+__CFG_BORV$190 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+__accesstop 60 0 ABS 0 - /tmp/cgtfcXN1d.obj
+__size_of___aldiv 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+__CFG_LS48MHZ$SYS24X4 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+PWM_1@BIT 221 -1DC COMRAM 1 bitbssCOMRAM dist/default/production/P1.X.production.obj
+__Hintcode_body 0 0 ABS 0 intcode_body dist/default/production/P1.X.production.obj
+__Lintcode_body 0 0 ABS 0 intcode_body dist/default/production/P1.X.production.obj
+__CFG_PBADEN$ON 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+intlevel0 0 0 CODE 0 text /tmp/cgtfcXN1d.obj
+__end_of_Conv_Entero 6B90 0 CODE 0 text19 dist/default/production/P1.X.production.obj
+intlevel1 0 0 CODE 0 text /tmp/cgtfcXN1d.obj
+__size_of_TRIAN_GENERAR_1 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+__CFG_WRTB$OFF 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+intlevel2 0 0 CODE 0 text /tmp/cgtfcXN1d.obj
+__size_of_TRIAN_GENERAR_2 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+intlevel3 0 0 CODE 0 text /tmp/cgtfcXN1d.obj
+__size_of___lmul 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+__CFG_WRTC$OFF 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+_Lcd_Out2 5F10 0 CODE 0 text14 dist/default/production/P1.X.production.obj
+__CFG_WRTD$OFF 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+__CFG_CPB$OFF 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+__end_of___wmul 5D3E 0 CODE 0 text3 dist/default/production/P1.X.production.obj
+__CFG_CPD$OFF 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+start_initialization 5EAC 0 CODE 0 cinit dist/default/production/P1.X.production.obj
+___aldiv@quotient B 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+___lldiv@quotient 9 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+___awdiv@quotient 7 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+__CFG_BOREN$SBORDIS 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+?_Conv_Entero F 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+__CFG_IESO$OFF 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+__CFG_MCLRE$ON 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+__CFG_FOSC$INTOSCIO 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+__initialization 5EAC 0 CODE 0 cinit dist/default/production/P1.X.production.obj
+___almod@dividend 1 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+__CFG_ICPRT$OFF 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+___almod@counter 9 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+__activetblptr 2 0 ABS 0 - dist/default/production/P1.X.production.obj
+___lmul@product 9 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+___wmul@product 5 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+__CFG_LVP$OFF 0 0 ABS 0 - dist/default/production/P1.X.production.obj
+___aldiv@dividend 1 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+___lldiv@dividend 1 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+___awdiv@dividend 1 0 COMRAM 1 cstackCOMRAM dist/default/production/P1.X.production.obj
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect in on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+reset_vec 0 0 0 4 1
+mediumconst 0 7E72 7E72 18E 1
+config 0 300000 300000 E 1
+idloc 0 200000 200000 8 1
+cstackCOMRAM 1 1 1 44 1
+dataBANK0 1 60 60 7E 1
+dataBANK1 1 100 100 98 1
+text0 0 6DC4 6DC4 10AE 1
+text12 0 6B90 6B90 234 1
+text19 0 69B8 69B8 1D8 1
+text16 0 6888 6888 130 1
+text18 0 6760 6760 128 1
+text17 0 6644 6644 11C 1
+text22 0 6548 6548 FC 1
+text21 0 646C 646C DC 1
+text11 0 63C8 63C8 A4 1
+idataBANK1 0 6330 6330 98 1
+text6 0 629E 629E 92 1
+text10 0 620C 620C 92 1
+text13 0 618A 618A 82 1
+text4 0 6120 6120 6A 1
+text5 0 60B6 60B6 6A 1
+text7 0 604C 604C 6A 1
+text8 0 5FE2 5FE2 6A 1
+text9 0 5F78 5F78 6A 1
+text14 0 5F10 5F10 68 1
+cinit 0 5EAC 5EAC 64 1
+text15 0 5E4A 5E4A 62 1
+text20 0 5DF4 5DF4 56 1
+text2 0 5DA6 5DA6 4E 1
+idataBANK0 0 5D6A 5D6A 3C 1
+text1 0 5D3E 5D3E 2C 1
+text3 0 5D18 5D18 26 1
